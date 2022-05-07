@@ -1,5 +1,12 @@
 # InSAR_2D-decomposition
-对于获得的升降轨InSAR观测进行东西向和垂直向的形变分解，内含降采样后的形变点文件
-_downsampled.txt文件为输入
-.m为MATLAB程序，具体使用方法文件中以备注形式进行说明
-.out及.grd为输出文件，.grd文件可用于GMT绘图
+Perform 2D deformation decomposition (east-west and vertical) for the obtained InSAR LOS observations. Here you need to adjust the projection coefficient according to different geometry of SAR observations.
+## Usages
+Input: _downsampled.txt file 
+Main file:.m is a MATLAB program
+Outputs: .out and .grd files, .grd files can be used for GMT plotting.
+## Contributing
+If you're using this library or have suggestions, let me know! I'm happy to work together on the code and its applications.
+## Citing
+If you use this library in your research, you can cite this repository as follows: He, Y., T. Wang, L. Fang, and L. Zhao (2021). The 2020 Mw 6.0 Jiashi Earthquake: Coinvolvement of Thin-Skinned Thrusting and Basement Shortening in Shaping the Keping-Tage Fold-and-Thrust Belt in Southwestern TianShan, Seismol. Res. Lett. 93, 680–692, doi: 10.1785/0220210063.
+
+Further citation information will be updated in the future.
